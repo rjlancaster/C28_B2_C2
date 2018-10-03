@@ -1,0 +1,58 @@
+
+
+header {
+  border: 1px solid goldenrod;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline;
+  padding-right: 2em;
+}
+
+/* Class of .disabled that is not an attribute tag */
+.disabled:not(a) {
+  color: grey;
+}
+
+/* Class of attribute with an a tag */
+a.disabled{
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div div:first-child {
+  color: red;
+}
+
+div.parent div div {
+  color: blue;
+}
+
+.parent div div:first-child + h4 {
+  background-color: red;
+}
+
+div.parent div div + h4 {
+  background-color: blue;
+}
+
+.grandparent  > h4 {
+  border: 1px solid green;
+  border-radius: 25%;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+footer span input {
+  height: 25px;
+}
